@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav class='navbar'>
+  <div class='container-fluid' id='nav'>
+    <h3 class='appName'>GetChatty</h3>
+    <a routerLink='/user'>Account</a>
+  </div>
+</nav>
+<div class='container-fluid' id='container-body'>
+  <div class='col-3 float-left' id='groupPanel'>
+    <h5>New Group +</h5>
+    <h5>Group</h5>
+    <h6>Channel</h6>
+    <h6>Channel</h6>
+    <h6>Channel</h6>
+    <h5>Group</h5>
+    <h6>Channel</h6>
+    <h5>Group</h5>
+    <h6>Channel</h6>
+    <img src="../assets/images/double-flower.png" class='flower-img'>
+  </div>
+  <div class='col-9 float-right'>
+    <router-outlet></router-outlet>
+  </div>
+  
+</div>
+</body>
